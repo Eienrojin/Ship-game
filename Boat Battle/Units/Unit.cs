@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Boat_Battle
 {
-    internal class Player
+    internal class Unit
     {
-        public Player(string name, Boat ownBoat)
+        public Unit(string name, Boat ownBoat)
         {
-            Name=name;
-            OwnBoat=ownBoat;
+            Name = name;
+            OwnBoat = ownBoat;
         }
 
         public string Name { get; set; }

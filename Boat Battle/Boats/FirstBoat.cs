@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Boat_Battle.Boats
+namespace Boat_Battle
 {
     internal class FirstBoat : Boat
     {

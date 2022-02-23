@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Boat_Battle
 {
-    internal interface IUnique
+    internal class Enemy : Unit
     {
-        void GetInfo();
+        public Enemy(string name, Boat ownBoat) : base(name, ownBoat)
+        {
+        }
     }
 }
